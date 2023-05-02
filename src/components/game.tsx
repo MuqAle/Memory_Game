@@ -2,15 +2,20 @@ import sanrioArray from "../utilities/array"
 import Card from "./card"
 
 interface GameArray{
-    sanrioArray: typeof sanrioArray 
-    onClick: (clicked:boolean) => void
+    array: typeof sanrioArray 
+    onClick: (clicked:boolean,name:string) => void
 }
 
-const Game = ({sanrioArray, onClick}:GameArray) => {
+const Game = ({array, onClick}:GameArray) => {
     return (
-        sanrioArray.map((sanrio) => (
-            <Card name={sanrio.name} src={sanrio.src} onClick ={() => {onClick(sanrio.clicked)}}></Card>
-        ))
+        <main>
+            {
+            array.map((card) => (
+                <Card key={card.name} name={card.name} src={card.src} onClick ={() => {onClick(card.clicked, card.name)}}></Card>
+            ))
+            }
+        </main>
+     
     )
 }
 
