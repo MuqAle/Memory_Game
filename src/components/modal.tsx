@@ -5,9 +5,11 @@ interface Modal{
 
 const Modal = ({onClick}:Modal) => {
     return(
-        <div>
-            <p>You Win!</p>
-            <button onClick={onClick}>Play Again</button>
+        <div className="overlay">
+            <div className="modal">
+                <p>You Win!</p>
+                <button onClick={onClick}>Play Again</button>
+            </div>
         </div>
     )
 }
