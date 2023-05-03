@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+.modal p, .modal button{
+    font-family: 'Darumadrop One', cursive;;
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    left:0;
+    height: 100vh;
+    background-color: rgba(0,0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+    background-color: rgb(172, 211, 244);
+    border-radius: 20px;
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal p{
+    margin-top: -10px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.modal button{
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    background-color: rgb(234, 156, 182);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+
+

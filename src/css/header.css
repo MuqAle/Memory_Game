@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+.title, .score-board{
+    font-family: 'Darumadrop One', cursive;
+}
+
+.title{
+    color:rgb(57, 162, 253);
+}
+
+.score-board{
+    color: rgb(195, 24, 24);
+    font-size: 1.5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}

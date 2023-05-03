@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+.card{
+    height: 17rem;
+    width: 12rem;
+}
+
+.card img{
+    width: inherit;
+    border-radius: 20px;
+}
+
+.card h3{
+    font-family: 'Darumadrop One', cursive;
+    text-align: center;
+}
