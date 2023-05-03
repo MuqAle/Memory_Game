@@ -11,7 +11,7 @@ const Game = ({array, onClick}:GameArray) => {
         <main>
             {
             array.map((card) => (
-                <Card key={card.name} name={card.name} src={card.src} onClick ={() => {onClick(card.clicked, card.name)}}></Card>
+                <Card  rgb={card.color} key={card.name} name={card.name} src={card.src} onClick ={() => {onClick(card.clicked, card.name)}}></Card>
             ))
             }
         </main>

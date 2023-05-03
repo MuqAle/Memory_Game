@@ -1,3 +1,4 @@
+import '../css/modal.css'
 
 interface Modal{
     onClick: () => void
@@ -5,12 +6,12 @@ interface Modal{
 
 const Modal = ({onClick}:Modal) => {
     return(
-        <div className="overlay">
             <div className="modal">
-                <p>You Win!</p>
-                <button onClick={onClick}>Play Again</button>
+                <div className="modal-content">
+                    <p>You Win!</p>
+                    <button onClick={onClick}>Play Again</button>
+                </div>
             </div>
-        </div>
     )
 }
 

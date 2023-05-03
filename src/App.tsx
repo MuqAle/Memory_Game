@@ -5,6 +5,7 @@ import Header from "./components/header"
 import { useEffect } from "react"
 import shuffleArray from "./utilities/shuffle"
 import Modal from "./components/modal"
+import './css/app.css'
 
 function App(){
   const [dataArray, updateDataArray] = useImmer(sanrioArray)

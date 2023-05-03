@@ -1,3 +1,4 @@
+import '../css/header.css'
 
 interface Header{
     currentScore: number,
