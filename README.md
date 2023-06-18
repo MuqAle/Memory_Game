@@ -10,7 +10,7 @@ html, css, typescript, and react
 html, css, typescript, and react
 
 ## Project Description
-Small memory game application where player has to click on each character once without repeating. The cards will shuffle everytime a card is clicked on. The game tracks player's current score and best score. Main focus was to integrate useEffect in the project.
+This was a part of the Odin Project Curriculum in the React Section. Small memory game application where player has to click on each character once without repeating. The cards will shuffle everytime a card is clicked on. The game tracks player's current score and best score. Main focus was to integrate useEffect in the project.
 
 ## Installation and Setup
 Clone down this repository. You will need node and npm installed globally on your machine.
